@@ -1,0 +1,22 @@
+# This is the *unique* ID of your course
+url_name: template_course
+display_name: My New Course
+org: EXLskills
+# This is the *unique* ID of your course (again) because we're maintaining compatability with other course formats. If you intend to use this with OLX or another course host, then it can have another value.
+course: template_course
+course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/ap-java-course.jpg
+language: en
+est_minutes: 3600
+primary_topic: Java
+repo_url: https://github.com/exlskills/template-course
+topics:
+  - Java
+  - Template
+headline: Your quick headline goes here!
+description: This is a slightly longer course description that will be shown to users on the course home page.
+info_md: |2
+  This is your course's long-form markdown info text. This will be shown to users in the info tab of your course.
+
+  The '2' above is to tell the YAML parser that everything that's indented by at least two characters below is part of this multi-line text.
+
+  To 'break out' of this info markdown, just add a property without indentation and you'll be dropped back into the primary YAML
