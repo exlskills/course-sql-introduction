@@ -1,9 +1,8 @@
-### Title Goes Here -- Make it different than the folder name
-#### Subtitle goes here
-Text goes here
- ```
- you can also add code using triple ticks
-```
- `or you can do inline code with single quotes` 
- #### here is another subtitle 
- and some text below it 
+### Basic Environment Setup
+#### How to set up your computer
+
+Open your web browser. I'll be using chrome, but you can use Safari, Brave, Opera (browsers that support Web SQL).
+
+To speed up learning we're going to use an online editor and database for SQL from W3Schools found here: https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all
+
+Here we go!
