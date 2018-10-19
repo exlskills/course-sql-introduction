@@ -15,4 +15,5 @@ PostgreSQL
 Microsoft SQL
 SQLite
 Oracle
+
 Note: There are some slight differences to each database, but most of the SQL commands we're going to cover will be the same or very similar.
