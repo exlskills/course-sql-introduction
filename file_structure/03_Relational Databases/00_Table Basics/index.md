@@ -1,9 +1,8 @@
-### Title Goes Here -- Make it different than the folder name
-#### Subtitle goes here
-Text goes here
- ```
- you can also add code using triple ticks
-```
- `or you can do inline code with single quotes` 
- #### here is another subtitle 
- and some text below it 
+### What is a Relational Database?
+#### There are two major components in a database:
+
+~ Data (Information Stored) and Schema (How the data is organized)
+
+~ Sections, Also called tables. This is how the data is structured.
+
+You can think of tables like an excel spreadsheet! Not so out of this world ;)
