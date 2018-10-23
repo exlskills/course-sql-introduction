@@ -5,4 +5,8 @@
 
 ~ Sections, Also called tables. This is how the data is structured.
 
-You can think of tables like an excel spreadsheet! Not so out of this world ;)
+You can think of tables like an excel spreadsheet!
+
+`Rows` go horizontal and `Columns` go vertical.
+
+Click next to go on..
