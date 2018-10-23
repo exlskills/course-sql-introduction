@@ -24,3 +24,6 @@ create table "tablename"
  "column2" "data type",
  "column3" "data type");
 ```
+
+
+For more information on SQL stay tuned for our next course: Advanced SQL 101. 
