@@ -1,7 +1,7 @@
 ### So what in the world is SQL??
 #### Seeeequel
 
-SQL (pronounced "ess-que-el" or 'S' 'Q' 'L') Either way is perfectly the same! SQL stands for Structured Query Language.
+SQL (pronounced "see-que-el" or 'S' 'Q' 'L') Either way is perfectly the same! SQL stands for Structured Query Language.
 
 This is the language and syntax we will use to interact with SQL databases. When we return and search data from a database we call it Querying.
 

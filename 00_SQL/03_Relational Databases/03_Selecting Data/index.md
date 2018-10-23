@@ -45,8 +45,11 @@ select first, last
 
 This statement will match any last names that end in an 'o'.
 
-or..
+or.. use the `*` to select all records of a function. For example:
 ```
 select * from empinfo
    where first = 'Will';
 ```
+This will pull all names that start with `Will` from the database that you have selected from.
+
+Easy enough? Perfect, Let's move on!
