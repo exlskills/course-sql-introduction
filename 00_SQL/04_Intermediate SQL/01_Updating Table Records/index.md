@@ -4,13 +4,13 @@
 
 #### Updating Records
 The update statement is used to update or change records that match a specified criteria. This is accomplished by carefully constructing a where clause.
-
+```
 update "tablename"
 set "columnname" = "newvalue"
  [,"nextcolumn" = "newvalue2"...]
 where "columnname"
   OPERATOR "value" [and|or "column" OPERATOR "value"];
-
+```
  [] = optional
 
 Notice how new function calls are on their own line and the operator calls are indented. The end of the SQL call ends with `;`.

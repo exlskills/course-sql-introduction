@@ -30,9 +30,9 @@ The percent sign "%" can be used as a wild card to match any possible character 
 ```
 select first, last, city
    from empinfo
-   where first LIKE 'Ke%';
+   where first LIKE 'Wi%';
 ```
-This will match and select any matches of names that start with `Ke`
+This will match and select any matches of names that start with `Wi`
 
 But remember... `Strings must be in single quotes`!
 
@@ -48,5 +48,5 @@ This statement will match any last names that end in an 'o'.
 or..
 ```
 select * from empinfo
-   where first = 'Keenan';
+   where first = 'Will';
 ```

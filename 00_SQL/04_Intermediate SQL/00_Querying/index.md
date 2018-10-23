@@ -10,6 +10,9 @@ An import thing to remember is we need to understand our data.
 
 We can do different types of querying to figure these out!
 
+#### Selecting Data
+When we query this isn't actually changing the database. You're just choosing what and how to look at the data.
+
 #### Functions
 
 Very similar to using excel, in SQL we can use functions to help us understand our data.
