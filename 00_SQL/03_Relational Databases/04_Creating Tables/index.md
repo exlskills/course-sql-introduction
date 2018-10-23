@@ -10,7 +10,7 @@ create table "tablename"
  "column3" "data type");
 ```
 
-Format of create table if you were to use optional constraints:
+This would be the format of create table command if you were to use optional constraints:
 
 ```
 create table "tablename"

@@ -11,13 +11,13 @@ insert into "tablename"
   values (first_value,...last_value);
 ```
 
-In the example below, the column name first will match up with the value 'Sam', and the column name state will match up with the value 'California'.
+In the example below, the column name first will match up with the value 'Will', and the column name state will match up with the value 'California'.
 
 Example:
 ```
 insert into employee
   (first, last, age, address, city, state)
-  values ('Sam', 'Bob', 25, '1234 EXL St',
+  values ('Will', 'Smith', 25, '1234 EXL St',
           'Silicon Valley', 'California');
 ```          
 Note: All strings should be enclosed between single quotes: 'string'

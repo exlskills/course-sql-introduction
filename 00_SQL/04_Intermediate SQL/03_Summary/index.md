@@ -8,3 +8,19 @@ We learned that data is information. Anything that can be used for interpreting 
 
 ##### Relational databases
 Relational databases are structured to recognize where items of information are related to one another.
+
+##### Selecting Data
+```
+select "column1"
+ [,"column2" ,etc]
+ from "tablename"
+ [where "condition"];
+ [] = optional
+```
+##### Creating a Table
+```
+create table "tablename"
+("column1" "data type",
+ "column2" "data type",
+ "column3" "data type");
+```

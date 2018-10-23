@@ -1,6 +1,6 @@
 ### Querying Data
 #### Let's Take a Deeper Look into Querying Data
-We have dove in a little in the third chapter about querying data to select, create and insert data with SQL, but let's take another look.
+We have dove into querying a little in the third chapter to select, create and insert data with SQL, but let's take deeper look.
 
 An import thing to remember is we need to understand our data.
 

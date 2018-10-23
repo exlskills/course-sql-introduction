@@ -48,6 +48,4 @@ delete from employee
   where firstname = 'Will' or firstname = 'Tom';
 ```
 
-Here are a few SQL queryies for you to practice on your own!
-
-[ToDO]
+Here are a few SQL queries for you to practice on your own!
