@@ -36,6 +36,6 @@ Learning how to SQL is a long process that will be fairly difficult. By the end 
 
 Feel free to skip any units that you already know but there is important information that is included in all of the lectures, so it would be in your best interest to at least skim each one.
 
-As well, we are running a live courses that is independent of this, but covers some of the same information. It is recommended that you at least skim some of this material before enrolling in the live class. The live class will be far more applicable and will get much further much faster.
+As well, we are running a live work sessions one on one with me the instructor! Feel free to book a time to talk or contact me directly @KeenanOlsen! 
 
-Good Luck! Reach out to our help platform if you have any questions!  
+Good Luck!
