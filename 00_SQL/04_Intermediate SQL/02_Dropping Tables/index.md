@@ -5,12 +5,14 @@ The drop table command is used to delete a table and all of its rows
 
 Dropping tables is different than deleting all records because it removes the table definition as well as all of its rows.
 
- ##### Drop Table Command
- ```
+#### Drop Table Command
+
+```SQL
 drop table "tablename"
 ```
 
-##### Example
-```
+#### Example
+
+```SQL 
 drop table all_website_users
 ```

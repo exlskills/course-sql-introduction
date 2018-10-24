@@ -1,16 +1,16 @@
-### Summary
-#### Congratulations, you've just completed the Intro to SQl course!
+### Congratulations, you've just completed the Intro to SQL course!
 
 What all have we learned so far..
 
-##### Data Basics
+#### Data Basics
 We learned that data is information. Anything that can be used for interpreting information can be considered data and where that is stored is our `database`.
 
-##### Relational databases
+#### Relational databases
 Relational databases are structured to recognize where items of information are related to one another.
 
-##### Selecting Data
-```
+#### Selecting Data
+
+```SQL
 select "column1"
  [,"column2" ,etc]
  from "tablename"
@@ -18,7 +18,8 @@ select "column1"
  [] = optional
 ```
 ##### Creating a Table
-```
+
+```SQL 
 create table "tablename"
 ("column1" "data type",
  "column2" "data type",
@@ -26,4 +27,4 @@ create table "tablename"
 ```
 
 
-For more information on SQL stay tuned for our next course: Advanced SQL 101. 
+For more information on SQL stay tuned for our next course: Advanced SQL 101.
