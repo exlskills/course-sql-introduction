@@ -4,7 +4,7 @@
 The `create table` statement is used to create a new table. This is the format to create and simple table using SQL:
 
 ```SQL
-create table "tablename"
+CREATE TABLE "tablename"
 ("column1" "data type",
  "column2" "data type",
  "column3" "data type");
@@ -13,7 +13,7 @@ create table "tablename"
 This would be the format of create table command if you were to use optional constraints:
 
 ```SQL
-create table "tablename"
+CREATE TABLE "tablename"
  ("column1" "data type"
          [constraint],
   "column2" "data type"

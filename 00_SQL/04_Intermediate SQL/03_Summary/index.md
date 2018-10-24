@@ -11,16 +11,16 @@ Relational databases are structured to recognize where items of information are 
 #### Selecting Data
 
 ```SQL
-select "column1"
+SELECT "column1"
  [,"column2" ,etc]
- from "tablename"
- [where "condition"];
+ FROM "tablename"
+ [WHERE "condition"];
  [] = optional
 ```
 ##### Creating a Table
 
-```SQL 
-create table "tablename"
+```SQL
+CREATE TABLE "tablename"
 ("column1" "data type",
  "column2" "data type",
  "column3" "data type");

@@ -5,11 +5,10 @@ The `select` statement is used to query the database and retrieve data that matc
 The format can be shown below:
 
 ```SQL
- select "column1"
+ SELECT "column1"
   [,"column2" ,etc]
-  from "tablename"
-  [where "condition"];
-  [] = optional
+  FROM "tablename"
+  [WHERE "condition"];
 ```
 
 You can select as many column as you would like, or you can use a `*` to select all columns.
@@ -29,9 +28,9 @@ The `LIKE` pattern matching operator can also be used in the conditional selecti
 The percent sign `%` can be used as a wild card variable to match any possible character that might appear before or after the characters specified. For example:
 
 ```SQL
-select first, last, city
-   from empinfo
-   where first LIKE 'Wi%';
+SELECT first, last, city
+   FROM empinfo
+   WHERE first LIKE 'Wi%';
 ```
 
 This will match and select any matches of names that start with `Wi`
@@ -43,9 +42,9 @@ But remember... Strings must be in single quotes!
 We can also specify exact data we are looking to select,
 
 ```SQL
-select first, last
-   from empinfo
-   where last LIKE %o;
+SELECT first, last
+   FROM empinfo
+   WHERE last LIKE %o;
 ```
 
 This statement will match any last names that end in an `o`.
@@ -53,8 +52,8 @@ This statement will match any last names that end in an `o`.
 or.. use the `*` to select all records of a function. For example:
 
 ```SQL
-select * from empinfo
-   where first = Will;
+SELECT * FROM empinfo
+   WHERE first = Will;
 ```
 
 This will pull all names that start with `Will` from the database that you have selected from.

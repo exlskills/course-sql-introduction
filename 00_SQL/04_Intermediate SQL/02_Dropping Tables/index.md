@@ -8,11 +8,11 @@ Dropping tables is different than deleting all records because it removes the ta
 #### Drop Table Command
 
 ```SQL
-drop table "tablename"
+DROP TABLE "tablename"
 ```
 
 #### Example
 
-```SQL 
-drop table all_website_users
+```SQL
+DROP TABLE all_website_users
 ```

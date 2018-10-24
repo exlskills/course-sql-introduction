@@ -8,11 +8,11 @@
 The update statement is used to update or change records that match a specified criteria. This is accomplished by carefully constructing a where clause.
 
 ```SQL
-update "tablename"
-set "columnname" = "newvalue"
+UPDATE "tablename"
+SET "columnname" = "newvalue"
  [,"nextcolumn" = "newvalue2"...]
-where "columnname"
-  OPERATOR "value" [and|or "column" OPERATOR "value"];
+WHERE "columnname"
+  OPERATOR "value" [AND|OR "column" OPERATOR "value"];
 ```
 
 Notice how the new function calls are on their own line and the operator calls are indented. The end of the SQL call ends with `;`.
@@ -21,9 +21,9 @@ Notice how the new function calls are on their own line and the operator calls a
 Changing an employees information in the company database.
 
 ```SQL
-update employee
-  set age = age+1
-  where first_name='Will' and last_name='Smith';
+UPDATE employee
+  SET age = age+1
+  WHERE first_name='Will' AND last_name='Smith';
 ```
 
 #### Deleting Records
@@ -31,26 +31,26 @@ update employee
 The delete statement is used to delete records or rows from the table.
 
 ```SQL
-delete from "tablename" where "columnname"
-  OPERATOR "value" [and|or "column"
+DELETE FROM "tablename" WHERE "columnname"
+  OPERATOR "value" [AND|OR "column"
   OPERATOR "value"];
 ```
 
 #### More Examples
 
 ```SQL
-delete from employee;
+DELETE FROM employee;
 ```
 Note: if you leave off the where clause, all records will be deleted!
 
 ```SQL
-delete from employee
-  where lastname = Will;
+DELETE FROM employee
+  WHERE lastname = Will;
 ```  
 
 ```SQL
-delete from employee
-  where firstname = Will or firstname = Tom;
+DELETE FROM employee
+  WHERE firstname = Will OR firstname = Tom;
 ```
 
 Here are a few SQL queries for you to practice on your own!
