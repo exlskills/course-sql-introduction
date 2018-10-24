@@ -4,7 +4,7 @@ The `select` statement is used to query the database and retrieve data that matc
 
 The format can be shown below:
 
- ```SQL
+```SQL
  select "column1"
   [,"column2" ,etc]
   from "tablename"
@@ -38,7 +38,7 @@ This will match and select any matches of names that start with `Wi`
 
 But remember... Strings must be in single quotes!
 
-#### Specifying Exact Data Queries
+### Specifying Exact Data Queries
 
 We can also specify exact data we are looking to select,
 
