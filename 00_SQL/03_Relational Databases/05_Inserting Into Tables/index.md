@@ -9,22 +9,21 @@ To insert records into a table, enter the key words insert into followed by the 
  The values that you enter will be held in the rows and they will match up with the column names that you specify. Strings should be enclosed in single quotes, and numbers should not.
 
 ```SQL
-insert into "tablename"
+INSERT INTO "tablename"
  (first_column,...last_column)
-  values (first_value,...last_value);
+  VALUES (first_value,...last_value);
 ```
 
-#### Example:
+### Example:
 
 In the example below, the column name `first` will match up with the value `Will`, and the column name `state` will match up with the value `California`.
 
 ```SQL
-insert into employee
+INSERT INTO employee
   (first, last, age, address, city, state)
-  values ('Will', 'Smith', 25, '1234 EXL St',
-          'Silicon Valley', 'California');
+  VALUES ('Will', 'Smith', 25, '1234 EXL St','Silicon Valley', 'California');
 ```       
 
-##### Note
+### Note
 
-All strings should be enclosed between single quotes: `'string'`. 
+All strings should be enclosed between single quotes: `'string'`.
