@@ -20,7 +20,7 @@ create table "tablename"
          [constraint],
   "column3" "data type"
         [constraint]);
- ```
+```
 
 Note: You may have as many columns as you'd like, and the constraints are optional.
 
