@@ -33,11 +33,12 @@ Learning how to SQL is a long process that will be fairly difficult. By the end 
 
   3.3 Changing and Deleting Tables
 
-  3.4 Summary 
+  3.4 Summary
 
 ### 4. Exam   
 
 
+#### Let's get started
 
 Feel free to skip any units that you already know but there is important information that is included in all of the lectures, so it would be in your best interest to at least skim each one.
 
