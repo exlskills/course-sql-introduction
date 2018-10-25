@@ -2,14 +2,14 @@
 
 The `select` statement is used to query the database and retrieve data that matches what you're looking for and specify within your code!
 
-The format can be shown below: 
+The format can be shown below:
 
-~~~~sql
+```sql
  SELECT "column1"
   [,"column2" ,etc]
   FROM "tablename"
   [WHERE "condition"];
-~~~
+```
 
 You can select as many column as you would like, or you can use a `*` to select all columns.
 
