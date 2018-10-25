@@ -4,7 +4,7 @@ The `select` statement is used to query the database and retrieve data that matc
 
 The format can be shown below:
 
-```SQL
+```sql
  SELECT "column1"
   [,"column2" ,etc]
   FROM "tablename"
