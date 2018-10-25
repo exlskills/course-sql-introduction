@@ -4,12 +4,12 @@ The `select` statement is used to query the database and retrieve data that matc
 
 The format can be shown below: TEST
 
-```sql
+~~~~sql
  SELECT "column1"
   [,"column2" ,etc]
   FROM "tablename"
   [WHERE "condition"];
-```
+~~~
 
 You can select as many column as you would like, or you can use a `*` to select all columns.
 
