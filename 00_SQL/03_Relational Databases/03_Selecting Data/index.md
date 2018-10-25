@@ -2,7 +2,7 @@
 
 The `select` statement is used to query the database and retrieve data that matches what you're looking for and specify within your code!
 
-The format can be shown below:
+The format can be shown below: TEST
 
 ```sql
  SELECT "column1"
