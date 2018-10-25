@@ -6,9 +6,7 @@ The format can be shown below:
 
 ```sql
  SELECT "column1"
-  [,"column2" ,etc]
-  FROM "tablename"
-  [WHERE "condition"];
+  FROM "tablename";
 ```
 
 You can select as many column as you would like, or you can use a `*` to select all columns.

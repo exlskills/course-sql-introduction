@@ -23,7 +23,7 @@ Very similar to using excel, in SQL we can use functions to help us understand o
 Here are a few examples:
 
 ```SQL
-SUM() `select SUM(XYZ) FROM XYZ`
+SUM() `SELECT SUM(XYZ) FROM XYZ`
 
 MAX() `SELECT X, Y, Z FROM XYZ`
 

@@ -1,6 +1,6 @@
->> Question Goes Here <<
-() Answer 1
-() Answer 2
-() Answer 3
-() Answer 4
-|| Hint Goes Here ||
+>> An import thing to remember to understand our data is..<<
+(X) How is it structured and what does it represent?
+() What we name the tables
+() Where we gathered the data
+() Why we choose to select certain data
+|| Data is information ||

@@ -1,6 +1,6 @@
->> Question Goes Here <<
-() Answer 1
-() Answer 2
-() Answer 3
-() Answer 4
-|| Hint Goes Here ||
+>> To drop a table use the query.. <<
+() DELETE TABLE "tablename"
+(X) DROP TABLE "tablename"
+() DESTROY TABLE "tablename"
+() DEMOLISH TABLE "tablename"
+|| It starts with the letter D ||
