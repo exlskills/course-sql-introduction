@@ -15,7 +15,9 @@ topics:
   - Relational Database
   - Data Science
 headline: Learn basic SQL programming with EXLskills!
-description: This is the EXLskills free and open-source SQL Introduction Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of SQL, to a moderate level of essential coding proficiency.
+description: |2
+  This is the EXLskills free and open-source SQL Introduction Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of SQL, to a moderate level of essential coding proficiency.
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/AZI86SW6cdE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 info_md: |2
   # EXLskills SQL Introduction Course
   This is the EXLskills free and open-source SQL Introduction Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of SQL, to a moderate level of essential coding proficiency.
