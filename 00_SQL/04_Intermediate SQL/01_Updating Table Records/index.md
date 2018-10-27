@@ -9,10 +9,8 @@ The update statement is used to update or change records that match a specified 
 
 ```SQL
 UPDATE "tablename"
-SET "columnname" = "newvalue"
- [,"nextcolumn" = "newvalue2"...]
-WHERE "columnname"
-  OPERATOR "value" [AND|OR "column" OPERATOR "value"];
+  SET "columnname" = "newvalue"
+  WHERE "columnname";
 ```
 
 Notice how the new function calls are on their own line and the operator calls are indented. The end of the SQL call ends with `;`.
@@ -32,8 +30,7 @@ The delete statement is used to delete records or rows from the table.
 
 ```SQL
 DELETE FROM "tablename" WHERE "columnname"
-  OPERATOR "value" [AND|OR "column"
-  OPERATOR "value"];
+  OPERATOR "value";
 ```
 
 #### More Examples
