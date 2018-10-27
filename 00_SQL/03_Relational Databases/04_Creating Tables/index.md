@@ -24,6 +24,6 @@ CREATE TABLE "tablename"
 
 Note: You may have as many columns as you'd like, and the constraints are optional.
 
-Also remember, all SQL statements end with a semi-colon `;`
+Also friendly reminder... all SQL statements end with a semi-colon `;`
 
 Now lets try to create a table on your own!
