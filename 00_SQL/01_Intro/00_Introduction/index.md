@@ -7,9 +7,9 @@ Learning how to SQL is a long process that will be fairly difficult. By the end 
 
   1.1 What is Data?
 
-  1.2 What is a Database
+  1.2 What is a Database?
 
-  1.3 What is SQL
+  1.3 What is SQL?
 
 ### 2. Relational Databases
 
