@@ -11,11 +11,7 @@ Relational databases are structured to recognize where items of information are 
 #### Selecting Data
 
 ```SQL
-SELECT "column1"
- [,"column2" ,etc]
- FROM "tablename"
- [WHERE "condition"];
- [] = optional
+ SELECT * FROM "Value";
 ```
 ##### Creating a Table
 

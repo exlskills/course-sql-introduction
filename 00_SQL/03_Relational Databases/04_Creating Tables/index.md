@@ -3,23 +3,12 @@
 
 The `create table` statement is used to create a new table. This is the format to create and simple table using SQL:
 
-```SQL
-CREATE TABLE "tablename"
-("column1" "data type",
- "column2" "data type",
- "column3" "data type");
-```
-
-This would be the format of create table command if you were to use optional constraints:
+Now using the same browser from W3 schools located [here](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all), enter the following command to create your own table.
 
 ```SQL
-CREATE TABLE "tablename"
- ("column1" "data type"
-         [constraint],
-  "column2" "data type"
-         [constraint],
-  "column3" "data type"
-        [constraint]);
+CREATE TABLE TestTable AS
+SELECT customername, contactname
+FROM customers;
 ```
 
 Note: You may have as many columns as you'd like, and the constraints are optional.

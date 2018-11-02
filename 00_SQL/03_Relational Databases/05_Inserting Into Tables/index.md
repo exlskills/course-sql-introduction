@@ -16,12 +16,11 @@ INSERT INTO "tablename"
 
 ### Example:
 
-In the example below, the column name `first` will match up with the value `Will`, and the column name `state` will match up with the value `California`.
+In the example below, the column name `CustomerName` will match up with the value `Will Smith`, and the column name `Country` will match up with the value `USA`.
 
 ```SQL
-INSERT INTO employee
-  (first, last, age, address, city, state)
-  VALUES ('Will', 'Smith', 25, '1234 EXL St','Silicon Valley', 'California');
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Will Smith', 'Will Smith', '22 Jump St', 'San Francisco', '94103', 'USA');
 ```       
 
 ### Note

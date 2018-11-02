@@ -9,8 +9,8 @@ The update statement is used to update or change records that match a specified 
 
 ```SQL
 UPDATE "tablename"
-  SET "columnname" = "newvalue"
-  WHERE "columnname";
+SET "columnname" = "newvalue"
+WHERE "columnname";
 ```
 
 Notice how the new function calls are on their own line and the operator calls are indented. The end of the SQL call ends with `;`.
@@ -19,9 +19,9 @@ Notice how the new function calls are on their own line and the operator calls a
 Changing an employees information in the company database.
 
 ```SQL
-UPDATE employee
-  SET age = age+1
-  WHERE first_name='Will' AND last_name='Smith';
+UPDATE Customers
+SET ContactName = 'Will Smith', City= 'San Francisco'
+WHERE CustomerID = 1;
 ```
 
 #### Deleting Records
@@ -29,25 +29,10 @@ UPDATE employee
 The delete statement is used to delete records or rows from the table.
 
 ```SQL
-DELETE FROM "tablename" WHERE "columnname"
-  OPERATOR "value";
+DELETE FROM table_name WHERE condition;
 ```
 
-#### More Examples
-
-```SQL
-DELETE FROM employee;
+#### More Examples with W3 Schools
 ```
-Note: if you leave off the where clause, all records will be deleted!
-
-```SQL
-DELETE FROM employee
-  WHERE lastname = Will;
-```  
-
-```SQL
-DELETE FROM employee
-  WHERE firstname = Will OR firstname = Tom;
+DELETE FROM Customers WHERE CustomerName='Will Smith';
 ```
-
-Here are a few SQL queries for you to practice on your own!

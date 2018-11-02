@@ -29,7 +29,7 @@ In the web3 Schools try copying the following query and see the result.
 
 ```SQL
 SELECT * FROM Customers
-  WHERE CustomerID = 1;
+WHERE CustomerID = 1;
 ```  
 Try playing witht he `WHERE` clause and see the different results you get!!
 
@@ -41,7 +41,7 @@ The percent sign `%` can be used as a wild card variable to match any possible c
 
 ```SQL
 SELECT * FROM [Customers]
-   WHERE CustomerName LIKE 'A%';
+WHERE CustomerName LIKE 'A%';
 ```
 
 This will match and select any matches of customer names that start with `A`
