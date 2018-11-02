@@ -41,7 +41,7 @@ The percent sign `%` can be used as a wild card variable to match any possible c
 
 ```SQL
 SELECT * FROM [Customers]
-   WHERE CustomerName LIKE 'A%';;
+   WHERE CustomerName LIKE 'A%';
 ```
 
 This will match and select any matches of customer names that start with `A`
