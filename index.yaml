@@ -5,6 +5,7 @@ course: intro_to_sql
 course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/micro-course-java-exceptions.jpg
 language: en
 est_minutes: 1080
+weight: 1600
 primary_topic: SQL
 repo_url: https://github.com/exlskills/course-sql-introduction
 topics:
