@@ -10,8 +10,7 @@ To insert records into a table, enter the key words insert into followed by the 
 
 ```SQL
 INSERT INTO "tablename"
- (first_column,...last_column)
-  VALUES (first_value,...last_value);
+VALUES (first_value,...last_value);
 ```
 
 ### Example:

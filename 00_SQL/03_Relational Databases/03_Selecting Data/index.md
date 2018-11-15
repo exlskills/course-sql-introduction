@@ -7,7 +7,7 @@ The format can be shown below:
 Enter this query into this [link](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) from W3 Schools and see the result!
 
 ```sql
- SELECT * FROM "Customers";
+SELECT * FROM Customers;
 ```
 
 You can select as many columns as you would like, or you can use a `*` to select all columns!
@@ -40,7 +40,7 @@ The `LIKE` pattern matching operator can also be used in the conditional selecti
 The percent sign `%` can be used as a wild card variable to match any possible character that might appear before or after the characters specified. For example:
 
 ```SQL
-SELECT * FROM [Customers]
+SELECT * FROM Customers
 WHERE CustomerName LIKE 'A%';
 ```
 
@@ -52,7 +52,7 @@ But remember... Strings must be in single quotes!
 
 We can also specify exact data we are looking to select.
 
-The `*` to select all records of a function. For example:
+The `*` to select all records of a function.
 
 
 Easy enough? Perfect, Let's move on!
