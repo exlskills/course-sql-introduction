@@ -2,7 +2,7 @@ url_name: intro_to_sql
 display_name: Introduction to SQL
 org: EXLskills
 course: intro_to_sql
-course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/micro-course-java-exceptions.jpg
+course_image: https://cdn-course-logos.exlskills.com/micro-course-java-exceptions.jpg
 language: en
 est_minutes: 1080
 weight: 1600
