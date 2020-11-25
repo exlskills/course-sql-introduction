@@ -2,9 +2,9 @@
 
 #### Let's Take a Deeper Look into Querying Data
 
-We have dove into querying a little in the third chapter to select, create and insert data with SQL, now let's take deeper look.
+We have dived into querying a little in the third chapter to select, create and insert data with SQL, now let's take deeper look.
 
-#### An import thing to remember is we need to understand our data.
+#### An important thing to remember is we need to understand our data.
 
 * How is it structured?
 
@@ -14,11 +14,11 @@ We can do different types of querying to figure these out!
 
 #### Selecting Data
 
-When we query this isn't actually changing the database. You're just choosing what and how to look at the data.
+When we query this isn't actually changing the database. You're just choosing what data you'd like to see and how you want it to look.
 
 #### Functions
 
-Very similar to using excel, in SQL we can use functions to help us understand our data.
+Similar to Excel, in SQL we can use functions to help us understand our data.
 
 Here are a few examples:
 
